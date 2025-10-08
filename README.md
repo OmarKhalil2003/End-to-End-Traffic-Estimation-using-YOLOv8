@@ -1,12 +1,12 @@
-```markdown
-# 🚗 Real-Time Traffic Density Estimation using YOLOv8
+
+# Real-Time Traffic Density Estimation using YOLOv8
 
 This project implements an **End-to-End Computer Vision pipeline** for real-time **vehicle detection and traffic density estimation** using **YOLOv8**.  
 It processes traffic videos or images to detect vehicles, count them per lane, and visualize **traffic intensity** (“Smooth” or “Heavy”) dynamically.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 The system:
 - Uses **YOLOv8** for vehicle detection.
@@ -17,7 +17,7 @@ The system:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -39,11 +39,11 @@ The system:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone or Download the Repository
 ```bash
-git clone https://github.com/your-username/traffic-density-estimation.git
+git clone https://github.com/OmarKhalil2003/End-to-End-Traffic-Estimation-using-YOLOv8
 cd traffic-density-estimation
 ````
 
@@ -64,15 +64,15 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
-### ▶️ Process a Video
+### Process a Video
 
 ```bash
 python main.py --video "data/sample_video.mp4"
 ```
 
-### 🖼️ Process a Single Image
+### Process a Single Image
 
 ```bash
 python main.py --image "data/sample_image.jpg"
@@ -86,7 +86,7 @@ output/traffic_density_analysis.mp4
 
 ---
 
-## 🧩 Configuration
+##  Configuration
 
 All paths and parameters are defined in `src/config.py`, including:
 
@@ -100,7 +100,7 @@ You can easily adjust them as needed.
 
 ---
 
-## 📊 Evaluation & Visualization
+## Evaluation & Visualization
 
 * **Training and validation loss curves** are plotted via `evaluate.py`.
 * **Confusion matrix** and **validation samples** visualization are included.
@@ -108,7 +108,7 @@ You can easily adjust them as needed.
 
 ---
 
-## 🧠 Key Libraries Used
+## Key Libraries Used
 
 * [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 * OpenCV
@@ -121,7 +121,7 @@ You can easily adjust them as needed.
 
 ---
 
-## 🎥 Example Output
+## Example Output
 
 | Input Video     | Output (Annotated)                                               |
 | --------------- | ---------------------------------------------------------------- |
@@ -129,15 +129,15 @@ You can easily adjust them as needed.
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Omar Khalil**
-📍 AI & Computer Vision Enthusiast
-💬 Connect on [LinkedIn](https://www.linkedin.com/) or check more projects!
+MSc Student @ AASTMT
+Connect on [LinkedIn](https://www.linkedin.com/in/omar-khalil-10om01) or check more projects!
 
 ---
 
-## 🪪 License
+## License
 
 This project is for **educational and research purposes**.
 All dataset and model weights belong to their respective owners.
